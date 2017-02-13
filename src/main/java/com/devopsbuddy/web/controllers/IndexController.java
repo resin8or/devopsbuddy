@@ -1,15 +1,15 @@
-package com.devopsbuddy.controllers;
+package com.devopsbuddy.web.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by jamietobin on 09/02/2017.
+ * Created by tedonema on 03/03/2016.
  */
 @Controller
 public class IndexController {
     @RequestMapping("/")
-    public String home(){
+    public String home() {
         return "index";
     }
 }

@@ -1,17 +1,16 @@
-package com.devopsbuddy.controllers;
+package com.devopsbuddy.web.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by jamietobin on 12/02/2017.
+ * Created by tedonema on 13/03/2016.
  */
 @Controller
 public class CopyController {
 
     @RequestMapping("/about")
-    public String about(){
+    public String about() {
         return "copy/about";
     }
-
 }
